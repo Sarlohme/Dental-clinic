@@ -45,22 +45,23 @@ body{
 }
 
 .heropage{
-    background-image: url( bg.png);
+    background-image: url(Images/bg.png);
     height: 85vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    top: 10%;
 }
 
 .heropage .text{
     padding: 10%;
-    padding-left: 25%;
     padding-top: 10%;
     letter-spacing: 1px;
+    margin-left: 15%;
 }
 
 .heropage .book{
-   font-size: 10px !important;
+   font-size: 15px !important;
 }
  
 .heropage p span{
@@ -69,12 +70,12 @@ body{
 }
 
 .heropage .container-img{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     background-color: #dcecfb;
     border-radius: 20px;
-    margin-top: -35%;
-   margin-right: 10%;
+    margin-top: -30%;
+   margin-right: 20%;
    position: relative;
    animation-name:  slideIn;
    animation-duration: 10s;
@@ -89,6 +90,8 @@ body{
     100% {top: 0px; background-color: #e2c6c3;}
   }
 
+ 
+
   .featured h5{
     color: #f6a2a3;
   }
@@ -101,10 +104,14 @@ body{
 
 .container-container2{
     margin: 12%;
-    margin-top: 20%;
-    margin-left: 15%;
+    margin-left: 17%;
 }
 
+
+
+section{
+    margin-top: 15%;
+}
 .Dental-doc  .dentalt h4{
   padding-top: 10%;
   color: #3236a5;
@@ -119,8 +126,9 @@ body{
     margin-left: 50%;
 }
 
+
 .Service{
-    margin-top: 25%;
+    margin-top: 10%;
     width: 80%;
    margin-left: 10%;
    height: 200px;
@@ -173,7 +181,7 @@ section p{
     width: 100%;
     background-color: #ecfcf5;
     height: 300px;
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 .actor img{
@@ -183,14 +191,14 @@ section p{
 }
 
 .actor h5{
-    margin-top: -20%;
+    margin-top: -15%;
     padding-left: 60%;
     color: #3236a5;
     font-size: 18px;
 }
 .actor span{
     color: #f6a2a3;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
 }
 .actor .button{
@@ -198,21 +206,42 @@ section p{
 }
 
 footer{
-    display: flex;
+    display: inline-block;
     justify-content: space-around;
-    background-color: #3236a5;
+    background-color:#3236a5;
     width: 100%;
-    margin-top: 15%;
+    margin-top: 20%;
+}
+footer .header{
+margin-top: 5%;
+margin-bottom: 5%;
+ text-align: center;
+}
+
+.header p{
+    font-size: 10px;
+    font-weight: lighter;
 }
 footer .row{
     padding-top: 7%;
-    padding: 20px;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 8%;
+}
+
+footer hr{
+    color: white;
 }
 
 footer h4{
     color: white;
     font-size: 18px;
     font-weight: bold;
+}
+footer p{
+    color: white;
+    font-size: 10px;
+    font-weight: lighter;
 }
 
 footer h3{
@@ -223,30 +252,21 @@ footer h3{
 }
 
 footer .btn-primary{
-    background-color: #e8f6fd;
-    color: #3236a5;
-    padding: 1px 100px;
-    border-radius: 10px;
+    background-color: #f6a2a3;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
 }
 
 footer .btn-secondary{
-    background-color: #f6a2a3;
-    color: #3236a5;
-    padding: 1px 100px;
-    border-radius: 10px;
+    background-color:#3236a5;
+    color: #f6a2a3;
+    padding: 3px 20px;
+    border-radius: 3px;
+    margin-top: 10px;
 }
 
-.footer-links{
-    list-style: none;
-}
-
-.footer-links li{
-    color: white;
-    font-size: 12px;
-    font-weight: 100;
-    text-align: left;
-    margin-left: -20%;
-}
 
 .modal-header{
     background-color: #3236a5;
@@ -260,20 +280,15 @@ footer .btn-secondary{
     align-items: center;
 }
 
-.form{
-    margin: 20px;
-}
+
 
 .form input{
     border: none;
-    padding: 3px 50px;
+    padding: 5px 50px;
     margin: 5px;
-    font-size: 12px;
+    font-size: 10px;
+    font-weight: lighter;
     border-radius: 10px;
-}
-
-.form input ::placeholder{
-    color: #3236a5;
 }
 
 .modal-body p{
