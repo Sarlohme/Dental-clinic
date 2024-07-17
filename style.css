@@ -59,16 +59,18 @@ body{
     letter-spacing: 1px;
     margin-left: 15%;
 }
-
+.heropage .hero-h5{
+    font-size: 25px; color:#f6a2a3; font-weight: 700;
+}
+.heropage .h2{
+    color: #3541ae; font-size: 60px; font-weight: 500; line-height: 1;
+}
+.heropage .appoint {
+    display: flex; margin-top: 15px;
+}
 .heropage .book{
-   font-size: 15px !important;
+   font-size: 15px !important; color: #3236a5; font-weight: bolder;
 }
- 
-.heropage p span{
-    font-size: 10px;
-    font-weight: bolder;
-}
-
 .heropage .container-img{
     width: 400px;
     height: 400px;
@@ -90,8 +92,6 @@ body{
     100% {top: 0px; background-color: #e2c6c3;}
   }
 
- 
-
   .featured h5{
     color: #f6a2a3;
   }
@@ -108,11 +108,18 @@ body{
 }
 
 
-
+/* About us start here */
 section{
     margin-top: 15%;
 }
-.Dental-doc  .dentalt h4{
+#about .Dental-doc{
+    background-color: #fff2f2; width: 100%; height: 300px; 
+    position: relative; top: -20%;
+}
+#about .Dental-doc .title{
+    font-weight: bolder; margin-top: 10%;
+}
+#about .Dental-doc  .dentalt h4{
   padding-top: 10%;
   color: #3236a5;
   padding-left: 20%;
@@ -120,13 +127,17 @@ section{
 
 }
 
-.Dental-doc  .dentalt img{
+#about .Dental-doc .dentalt img{
     width: 350px;
     margin-top: -20%;
     margin-left: 50%;
 }
 
-
+#about .img-doc{
+    width: 500px; position: absolute; 
+    margin-left: 20%; margin-top: -5%; border-radius: 30px;
+}
+/* service style start here */
 .Service{
     margin-top: 10%;
     width: 80%;
@@ -142,6 +153,15 @@ align-items: center;
 .Service .carousel-inner2 img{
     height: auto;
     border: 1px solid whitesmoke;
+}
+.Service .Content2 .p{
+    font-size: 15px; text-align: center; font-weight: 400; margin-bottom: 35px;
+}
+.Content2 .span{
+    color: #f6a2a3; font-weight: bold; font-size: 15px; text-align: center;
+}
+.Content2 .h2{
+    color: #3236a5; font-weight: bolder; font-size: 42px;  text-align: center;
 }
 
 .Con-ser{
@@ -306,6 +326,3 @@ footer .btn-secondary{
 .modal-footer{
     background-color: #3236a5;
 }
-
-
-
