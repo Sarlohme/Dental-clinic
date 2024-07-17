@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiveness.css">
     <title>Dental clinic</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -33,11 +34,11 @@
     <!--Heros page-->
     <div class="heropage">
         <div class="text">
-            <h5 style="font-size: 25px; color:#f6a2a3; font-weight: 700;">We all take care of <br> your smile. Come see us.</h5>
-            <h2 style="color: #3541ae; font-size: 60px; font-weight: 500; line-height: 1;">We transform <br>your smile</h2>
-          <div style="display: flex; margin-top: 15px;">
+            <h5 class="hero-h5">We all take care of <br> your smile. Come see us.</h5>
+            <h2 class="h2">We transform <br>your smile</h2>
+          <div class="appoint">
             <i class='bx bxs-right-arrow-circle' style="color: #f6a2a3; font-size: 20px !important;"></i>   
-            &nbsp;<p class="book" style="color: #3236a5; font-weight: bolder;">
+            &nbsp;<p class="book">
             Book an appointment
           </p></div>
         </div>
@@ -75,19 +76,19 @@
 
     <!--featured post-->
    <section class="featured">
-    <div class="container-container2">
+    <div class="container container2">
       <div class="row align-items-center">
-        <div class="col" >
+        <div class="col-4" >
           <i class='bx bxs-user-circle' style="color: #f6a2a3; font-size: 70px;margin-left: 20%;"></i>
           <h5>Patient centered care</h5>
           <p>We priotize safety with health checks, <br> contactless check ins, enhanced PPE, <br> and lots more</p>
         </div>
-        <div class="col">
+        <div class="col-4">
           <i class='bx bxs-check-shield' style="color: #f6a2a3; font-size: 70px;margin-left: 20%;"></i>
           <h5>Quality Improvement</h5>
           <p>We priotize safety with health checks, <br> contactless check ins, enhanced PPE, <br> and lots more</p>
         </div>
-        <div class="col">
+        <div class="col-4">
           <i class='bx bxs-heart-circle' style="color: #f6a2a3; font-size: 70px;margin-left: 20%;"></i>
           <h5>Healthcare technology</h5>
           <p>We priotize safety with health checks, <br> contactless check ins, enhanced PPE, <br>and lots more</p>
@@ -98,15 +99,15 @@
     
    <!--Staff-->
       <section id="about">
-        <div class="Dental-doc" style="background-color: #fff2f2; width: 100%; height: 300px; position: relative; top: -20%;">
+        <div class="Dental-doc">
           <div class="dentalt">
-            <h4><span style="font-weight: bolder; margin-top: 10%;">Dr. Rajesh Shetty</span><br>
+            <h4><span class="title">Dr. Rajesh Shetty</span><br>
               is a board-certified, licensed doctor.</h4>
               <img src="Images/dental.png" alt="">
           </div>
         </div>
 
-  <div class="card mb-3" style="max-width: 500px; position: absolute; margin-left: 20%; margin-top: -5%; border-radius: 30px;">
+  <div class="card mb-3 img-doc">
   <div class="row g-0">
  <div class="col-md-4">
   <img src="Images/dnt 4.png" class="img-fluid rounded-start" alt="...">
@@ -127,10 +128,10 @@
     <section id="service">
       <div class="Service">
         <div class="Content2">
-          <h2 style="color: #3236a5;font-weight: bolder; font-size: 30px;  text-align: center;">
-            <span style= "color: #f6a2a3; font-weight: bold; font-size: 15px; text-align: center;">Our services</span><br/>
+          <h2 class="h2">
+            <span class= "span">Our services</span><br/>
             The best possible result</h2>
-          <p style="font-size: 15px; text-align: center;">Take a look at a direct comparision before and after the <br> &nbsp; &nbsp; &nbsp;treatment by dragging the slider left or right</p>
+          <p class="p">Take a look at a direct comparision before and after the <br> &nbsp; &nbsp; &nbsp;treatment by dragging the slider left or right</p>
         </div>
       
       <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -188,17 +189,19 @@
 
 
 <!--Testimonials-->
-<div class="actor">
-<img src="Images/actor1.png" alt="">
-<h5>I will like to thank you for <br>giving me my perfect smile, <br> my confidence has grown <br> immensely <br> <span>Ms. Harley <br> Theatre Actor </span></h5>
-<div class="button">
-  <i class='bx bxs-right-arrow-circle' style="color: #f6a2a3; font-size: 20px"></i>
-  <h6 style="font-size: 10px; font-weight: bolder; margin-left: 5%; margin-top: -3%; color: #3236a5;">See more testimonials</h6>
-   </div>
+<div class="container">
+  <div class="actor">
+    <img src="Images/actor1.png" alt="">
+    <h5>I will like to thank you for <br>giving me my perfect smile, <br> my confidence has grown <br> immensely <br> <span>Ms. Harley <br> Theatre Actor </span></h5>
+    <div class="button">
+      <i class='bx bxs-right-arrow-circle' style="color: #f6a2a3; font-size: 20px"></i>
+      <h6 style="font-size: 10px; font-weight: bolder; margin-left: 5%; margin-top: -3%; color: #3236a5;">See more testimonials</h6>
+       </div>
+    </div>
 </div>
 
  <!---Footer-->
-<footer>
+<footer style="margin-top: -1%;">
   <div class="container-fluid">
     <div class="header">
   <h4>JOIN OUR AWESOME COMMUNITY<br></h4>
@@ -209,7 +212,7 @@
 </button>
 
 <!-- Modal ---->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -255,3 +258,4 @@
 </footer>
 </body>
 </html>
+
