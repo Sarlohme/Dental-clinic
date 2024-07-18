@@ -30,7 +30,7 @@
         
     }
     .featured .container .row .col-4 p br{
-        display: none !important;
+        display: flex !important;
     }
     .Dental-doc  .dentalt img{
         width: 100%;
@@ -88,5 +88,9 @@
             padding: 10px;
             margin-left: 8%;
         }
-        
+    .modal-body img{
+    width: 100px;
+   
+}
+    
 }
