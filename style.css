@@ -91,20 +91,6 @@ body{
     75%  {top: 50px; background-color: #57acdb;}
     100% {top: 0px; background-color: #e2c6c3;}
   }
-
-.featured{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 5%;
-    margin-top: 20%;
-    margin-left: 17%;
- }
-
-  .featured h5{
-    color: #f6a2a3;
-  }
-
 .container .carousel-inner{
     position: absolute;
     width: 100%;
@@ -114,6 +100,28 @@ body{
 .container-container2{
     margin: 12%;
     margin-left: 17%;
+}
+.featured{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+    margin-top: 20%;
+    margin-left: 17%;
+ }
+
+ .featured h5{
+    color: #f6a2a3;
+  }
+
+
+.featured i{
+    color: #f6a2a3; 
+    font-size: 70px;
+    margin-left: 20%;
+}
+.featured-icons{
+    display: block;
 }
 
 
