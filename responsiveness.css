@@ -88,6 +88,11 @@
             padding: 10px;
             margin-left: 8%;
         }
+    
+.form input{
+    padding: 5px 30px;
+}
+
     .modal-body img{
     width: 100px;
    
