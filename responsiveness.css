@@ -23,7 +23,7 @@
         margin: 10px;
     }
     .featured .container .row{
-        display: block !important;
+        display: flex !important;
     }
     .featured .container .row .col-4 h5{
         font-size: 25px;
