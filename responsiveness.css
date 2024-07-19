@@ -26,6 +26,10 @@
        display: block !important;
         width: 100%;
     }
+    .featured .container .row .col-4{
+        display: block !important;
+        width: 100%;
+    }
      .featured-icons{
         display: flex;
         justify-content: flex-start;
@@ -61,7 +65,7 @@
        margin-left: 0%;
     }
     .Service .Content2{
-        margin-top: 200%;
+        margin-top: 230%;
     }
     
     .Service .carousel-inner2 img{
